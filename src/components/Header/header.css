@@ -1,0 +1,41 @@
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-white-light);
+    padding: 1rem;
+}
+@media screen and (max-width:46.875em){
+    .header-top{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+.logo{
+    text-transform: uppercase;
+}
+.header-social{
+    display: flex;
+    gap: 3rem;
+}
+@media screen and (max-width:37.5em){
+    .header-social{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+.header-social-info{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.header-social-icon-wrapper{
+    --size: 5rem;
+    width:var(--size) ;
+    height: var(--size);
+    background-color: var(--color-white);
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+}
