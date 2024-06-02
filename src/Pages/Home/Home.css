@@ -3,7 +3,8 @@
     display: flex;
     justify-content: center;
     background-color: #802c68;
-    /* background: url(../../assets/Ai\ Robot\ Innovation\ High\ Tech\ Ppt\ Robot\ Template\ Background\ Image\,\ Mechanical\,\ Future\ Sense\,\ Robot\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpg); */
+    /* background-image: url(../../assets/Premium\ Photo\ _\ Fiber\ optic\ cable\ technology\ background.jpeg); */
+    
 }
 .hero-textbox{
     display: flex;
@@ -53,14 +54,32 @@
     margin: 2rem auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    
 }
-.why{
+.Why{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #802c68;
-}
-.why-light-Bg{
     background-color:#f83270;
 }
+.why-icon-wrapper{
+    --size: 6rem;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    background-color: var(--color-primary-lighter);
+    display: grid;
+    place-content: center;
+}
+.Why h3{
+    margin: 2rem 0;
+  text-transform: capitalize;
+  color: var(--color-white);
+}
+.Why p{
+    text-align: center;
+  line-height: 1.8;
+  color: var(--color-white);
+}
+

@@ -1,9 +1,9 @@
 import { PiStudentBold } from "react-icons/pi";
 import React from 'react'
-const Why = ({ icon, title, description, lightBg }) => {
+const Why = ({ icon, title, description, }) => {
     return (
          
-      <div className="why">
+      <div className="Why">
         <div className="why-icon-wrapper">{icon}</div>
         <h3>{title}</h3>
         <p>{description}</p>
