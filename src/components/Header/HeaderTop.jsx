@@ -17,10 +17,10 @@ const SocialInfo = ({icon,label})=> {
 const HeaderTop =() => {
     return(
         <div className="header-top">
-            <h2 className="logo">medicare</h2>
+            <h2 className="logo">murang'a university tech club</h2>
             <div className="header-social">
-                <SocialInfo icon={<MdMarkEmailRead/>} label="info@medicare.com"/>
-                <SocialInfo icon={<FaLocationDot/>} label="murang'a county"/>
+                <SocialInfo icon={<MdMarkEmailRead/>} label="info@mutc.com"/>
+                {/* <SocialInfo icon={<FaLocationDot/>} label="murang'a county"/> */}
                 <SocialInfo icon={<FaPhone/>} label="+254759969692"/>
             </div>
         </div>

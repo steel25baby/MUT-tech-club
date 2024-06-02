@@ -39,3 +39,14 @@
     place-content: center;
     border-radius: 50%;
 }
+.header-nav-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 3rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.header-nav-item a :hover{
+   background-color:var();  
+}

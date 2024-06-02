@@ -9,11 +9,11 @@ html {
   font-size: 62.5%;
 }
 :root {
-  --color-primary: #0c75fb;
-  --color-primary-light: #2f89fc;
-  --color-primary-lighter: #61a6fd;
-  --color-secondary: #ff8000;
-  --color-white-light: #fafafa;
+  --color-primary: #802c6e;
+  --color-primary-light: #393134;
+  --color-primary-lighter: #f0316d;
+  --color-secondary: #2b0512;
+  /* --color-white-light: #fafafa; */
   --color-white: #fff;
   --color-black: #222;
 }
