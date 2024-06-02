@@ -1,0 +1,66 @@
+.hero{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    background-color: #802c68;
+    /* background: url(../../assets/Ai\ Robot\ Innovation\ High\ Tech\ Ppt\ Robot\ Template\ Background\ Image\,\ Mechanical\,\ Future\ Sense\,\ Robot\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpg); */
+}
+.hero-textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-textbox h2{
+    font-size: 6rem;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+.hero-textbox p{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+.hero-ctas a{
+    text-decoration: none;
+    /* display: inline-block;
+    background-color: #393134;
+    text-transform: capitalize;
+    padding: 1rem 1.5rem; */
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    
+}
+.hero-ctas a:first-child{
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+.hero-ctas a:last-child{
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 20px;
+}
+.why-us-section{
+    border: 1px solid red;
+    width: 1100px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.why{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #802c68;
+}
+.why-light-Bg{
+    background-color:#f83270;
+}
