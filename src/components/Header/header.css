@@ -44,9 +44,17 @@
     justify-content: center;
     list-style: none;
     gap: 3rem;
+    
+}
+.header-nav-item{
+    /* background-color: #2b0512; */
     text-transform: capitalize;
     font-weight: 600;
+    color: var(--color-black);
+  display: inline-block;
+  padding: 1rem;
+  transition: all 0.5s;
 }
-.header-nav-item a :hover{
-   background-color:var();  
+.header-nav-item:hover{
+    color: #802c6e;
 }
