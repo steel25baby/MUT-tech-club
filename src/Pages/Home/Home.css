@@ -2,8 +2,8 @@
     min-height: 70vh;
     display: flex;
     justify-content: center;
-    background-color: #802c68;
-    /* background-image: url(../../assets/Premium\ Photo\ _\ Fiber\ optic\ cable\ technology\ background.jpeg); */
+    /* background-color: #802c68; */
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../../assets/heroimage.jpeg);
     
 }
 .hero-textbox{
@@ -49,19 +49,21 @@
     border-radius: 20px;
 }
 .why-us-section{
-    border: 1px solid red;
     width: 1100px;
-    margin: 2rem auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
+    transform: translateY(-55px);
+    gap: 1rem;
 }
 .Why{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#f83270;
+    background-color:#802;
+    border-radius: 10px;
+
 }
 .why-icon-wrapper{
     --size: 6rem;
@@ -71,6 +73,7 @@
     background-color: var(--color-primary-lighter);
     display: grid;
     place-content: center;
+    font-size: 40px;
 }
 .Why h3{
     margin: 2rem 0;
@@ -81,5 +84,77 @@
     text-align: center;
   line-height: 1.8;
   color: var(--color-white);
+  text-transform: capitalize;
+}
+:root {
+    --color-primary: #802c6e;
+    --color-primary-light: #393134;
+    --color-primary-lighter: #f0316d;
+    --color-secondary: #2b0512;
+}
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color:var(--color-secondary);
 }
 
+.about-section h1{
+    font-size: 80px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: white;
+}
+
+.about-section .imageAbout{
+    width: 50%;
+}
+
+.about-section .imageAbout{
+    width: 50%;
+}
+.about-section .imageAbout img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about-section .aboutDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+.about-section .aboutDetails div{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: #393134 solid 2px;
+}
+
+.about-section .aboutDetails div svg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #393134;
+    color: yellow;
+    display: grid;
+    place-content: center;
+    font-size: 8px;
+}
+
+.about-section .aboutDetails .detailHeader{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+.about-section .aboutDetails p{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
