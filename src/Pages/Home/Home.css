@@ -74,6 +74,7 @@
     display: grid;
     place-content: center;
     font-size: 40px;
+
 }
 .Why h3{
     margin: 2rem 0;
@@ -92,19 +93,20 @@
     --color-primary-lighter: #f0316d;
     --color-secondary: #2b0512;
 }
+
+.About h1{
+    font-size: 80px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+}
 .about-section{
     display: flex;
     justify-content: space-between;
     padding: 0 2rem;
-    background-color:var(--color-secondary);
+    background-color:#802;
 }
 
-.about-section h1{
-    font-size: 80px;
-    font-style: italic;
-    text-transform: uppercase;
-    color: white;
-}
 
 .about-section .imageAbout{
     width: 50%;
@@ -119,42 +121,99 @@
     object-fit: cover;
     border-radius: 10px;
 }
+.about-section .about-section-right{
+    margin: 10px 20px;
+}
 
-.about-section .aboutDetails{
+.Aboutus{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #2b0512 solid 2px;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.Aboutus .Aboutus-icon-wrapper{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f0316d;
+    display: grid;
+    place-content: center;
+    font-size: 40px;
+}
+
+.Aboutus h3{
+    margin: 2rem 0;
+    text-transform: capitalize;
+    color: var(--color-white);
+    font-size: 30px;
+}
+
+.Aboutus p{
+    text-align: center;
+  line-height: 1.8;
+  color: var(--color-white);
+  text-transform: capitalize;
+}
+.Testimonials{
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
     flex-direction: column;
 }
+.Testimonials .motherDetails{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 2rem;
+}
 
-.about-section .aboutDetails div{
-    margin-bottom: 10px;
+.Testimonials .TestimonyDetails{
+    display: flex;
+    width: 45%;
+    border: #802 solid 2px;
+    padding: 1rem;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0px 20px 40px rgba(0,0,0,1);
+}
+
+.Testimonials .TestimonyDetails .TestimonyDetailsImage{
+    width: 50%;
+}
+
+.Testimonials .TestimonyDetails .TestimonyDetailsImage img{
+    width: 100%;
     border-radius: 10px;
-    border: #393134 solid 2px;
 }
 
-.about-section .aboutDetails div svg{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #393134;
-    color: yellow;
-    display: grid;
-    place-content: center;
-    font-size: 8px;
+.Testimonials .TestimonyDetails .TestimonyDetailsRight{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:10px ;
 }
 
-.about-section .aboutDetails .detailHeader{
-    font-size: 30px;
-    font-weight: 600;
+.Testimonials .TestimonyDetails .TestimonyDetailsRight p{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.Testimonials .TestimonyDetails .TestimonyDetailsRight h3{
     text-align: center;
-    color: white;
-}
-
-.about-section .aboutDetails p{
     font-size: 20px;
-    font-weight: 500;
+    color: #2b0512;
+}
+.Testimonials .TestimonyDetails .TestimonyDetailsRight h6{
     text-align: center;
-    color: white;
+    color: #2b0512;
+    font-size: 12px;
+    font-weight: 900;
 }
